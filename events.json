@@ -1,0 +1,82 @@
+[
+    /**
+ * @name Biojs.CircularGenomeFeatureViewer#annotationMouseover
+ * @event
+ * @param {function} actionPerformed An function which receives an {@link Biojs.Event} object as argument.
+ * @eventData {Object} source The component which did triggered the event.
+ * @eventData {string} type The name of the event.
+ * @eventData {Object} target annotation.
+ * @example 
+ * myCircularGenomeFeatureViewer.annotationMouseover(
+ *    function( objEvent ) {
+ *       alert("Annotation: " + objEvent.start + ", " + objEvent.stop );
+ *    }
+ * );
+ * 
+ * */
+    'annotationMouseover',
+    /**
+ * @name Biojs.CircularGenomeFeatureViewer#annotationMouseout
+ * @event
+ * @param {function} actionPerformed An function which receives an {@link Biojs.Event} object as argument.
+ * @eventData {Object} source The component which did triggered the event.
+ * @eventData {string} type The name of the event.
+ * @eventData {Object} target annotation.
+ * @example 
+ * myCircularGenomeFeatureViewer.annotationMouseout(
+ *    function( objEvent ) {
+ *       alert("Annotation: " + objEvent.start + ", " + objEvent.stop );
+ *    }
+ * );
+ * 
+ * */
+    'annotationMouseout',
+    /**
+ * @name Biojs.CircularGenomeFeatureViewer#annotationClick
+ * @event
+ * @param {function} actionPerformed An function which receives an {@link Biojs.Event} object as argument.
+ * @eventData {Object} source The component which did triggered the event.
+ * @eventData {string} type The name of the event.
+ * @eventData {Object} target annotation.
+ * @example 
+ * myCircularGenomeFeatureViewer.annotationClick(
+ *    function( objEvent ) {
+ *       alert("Annotation: " + objEvent.start + ", " + objEvent.stop );
+ *    }
+ * );
+ * 
+ * */
+    'annotationClick',
+    /**
+ * @name Biojs.CircularGenomeFeatureViewer#annotationAdded
+ * @event
+ * @param {function} actionPerformed An function which receives an {@link Biojs.Event} object as argument.
+ * @eventData {Object} source The component which did triggered the event.
+ * @eventData {string} type The name of the event.
+ * @eventData {Object} target annotation.
+ * @example 
+ * myCircularGenomeFeatureViewer.annotationAdded(
+ *    function( objEvent ) {
+ *       alert("Annotation: " + objEvent.start + ", " + objEvent.stop );
+ *    }
+ * );
+ * 
+ * */
+    'annotationAdded',
+    /**
+ * @name Biojs.CircularGenomeFeatureViewer#annotationRemoved
+ * @event
+ * @param {function} actionPerformed An function which receives an {@link Biojs.Event} object as argument.
+ * @eventData {Object} source The component which did triggered the event.
+ * @eventData {string} type The name of the event.
+ * @eventData {Object} target annotation.
+ * @example 
+ * myCircularGenomeFeatureViewer.annotationRemoved(
+ *    function( objEvent ) {
+ *       alert("Annotation: " + objEvent.start + ", " + objEvent.stop );
+ *    }
+ * );
+ * 
+ * */
+    'annotationRemoved'
+]
